@@ -41,7 +41,8 @@ class Checked:
             print(f'Произошла ошибка: {e}')
             
 
-check = Checked().check_ETHUSD()
+if __name__ == '__main__':
+    check = Checked().check_ETHUSD()
 
 
 
